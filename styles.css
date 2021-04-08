@@ -485,7 +485,20 @@ div.footer h6 {
     
 }
 
-@media(max-width:450px){
+@media(max-width:425px){
+    body{
+        width: 100%;
+    }
+    div.nav-bar {
+        padding: 1rem 1rem;
+        justify-content: start;
+        width: 100vw;
+        background: #304353;
+    }
+    div.hero-section {
+        padding: 5rem 3rem;
+        width: 100%;
+    }
     div.hero-content-heading p {
         /* font-size: 2rem;
         text-transform: uppercase;
@@ -494,8 +507,6 @@ div.footer h6 {
         /* width: 100%; */
         /* justify-content: space-evenly; */
         text-align: justify;
-
-
     }
     div.hero-background {
         padding: 5rem;
@@ -503,8 +514,8 @@ div.footer h6 {
     div.background {
         /* background: #fff;
         box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%); */
-        padding: 15px 15px;
-        height: 270px;
+        padding: 10px 5px;
+        height: 300px;
     }
     
     /* div.background {
@@ -524,7 +535,11 @@ div.footer h6 {
         width: 90%;
     }
     div.hero-background-pos {
+        display: none;
         left: 15%;
+    }
+    div.snapshot-box-content{
+        flex-wrap: wrap;
     }
     .change-bg {
         width: 100%;
